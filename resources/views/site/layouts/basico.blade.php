@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Super Gest„o - Sobre NÛs</title>
+        <title>Super gest√£o - @yield('titulo')</title>
         <meta charset="utf-8">
 
         <style>
