@@ -16,6 +16,8 @@ Route::get('/sobre-nos',[SobreNosController::class, 'sobreNos'])->name('site.sob
 
 Route::get('/contato',[ContatoController::class, 'contato'])->name('site.contato');
 
+Route::post('/contato',[ContatoController::class, 'contato'])->name('site.contato');
+
 Route::get('/rota1',[PrincipalController::class, 'rota1'])->name('site.rota1');
 
 Route::get('/teste/{p1}/{p2}',[TesteController::class, 'teste'])->name('teste');
